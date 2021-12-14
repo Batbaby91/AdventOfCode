@@ -21,7 +21,7 @@ public class Main {
         }
         vents.add(new Vent(intLine));
       }
-
+      reader.close();
     }
     catch (Exception e) { System.out.println(e.getMessage()); }
     

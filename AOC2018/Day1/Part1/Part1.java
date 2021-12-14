@@ -28,6 +28,7 @@ public class Part1 {
       }
 
       System.out.println(frequency);
+      reader.close();
     }
   
     catch (Exception e) { System.out.println(e.getMessage());}

@@ -47,6 +47,7 @@ public class Part2 {
         String line = reader.nextLine();
         boxIDs.add(new BoxID(line));
       }
+      reader.close();
     }
     catch (Exception e) { System.out.println(e.getMessage()); }
 

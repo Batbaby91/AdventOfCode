@@ -37,6 +37,7 @@ public class Main {
         }
       }
       cards.add(new Card(rows));
+      reader.close();
     }
     catch (Exception e) { System.out.println(e.getMessage()); }
     
@@ -56,6 +57,7 @@ public class Main {
       for(String string : splitLine) {
         numbers.add(Integer.parseInt(string));
       }
+      reader.close();
     }
     catch (Exception e) { System.out.println(e.getMessage()); }      
     

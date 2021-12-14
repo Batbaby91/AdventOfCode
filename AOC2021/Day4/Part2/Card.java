@@ -41,7 +41,6 @@ public class Card {
   }
 
   public int getScore() {
-    int score = 0;
     for(Row row: rows) {
       score += row.getScore();
     }

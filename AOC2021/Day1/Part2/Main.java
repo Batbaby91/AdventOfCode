@@ -15,6 +15,7 @@ public class Main {
         String line = reader.nextLine();
         measurements.add(Integer.parseInt(line));
       }
+      reader.close();
     }
     catch (Exception e) { System.out.println(e.getMessage()); }
 

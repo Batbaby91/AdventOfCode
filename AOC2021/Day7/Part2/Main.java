@@ -3,7 +3,6 @@ package AOC2021.Day7.Part2;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.HashMap;
 import java.util.Scanner;
 
 public class Main {

@@ -20,6 +20,7 @@ public class Main {
           readings.add(values[x]);
         }
       }
+      reader.close();
     } 
     catch (Exception e) {
       System.out.println(e.getMessage());

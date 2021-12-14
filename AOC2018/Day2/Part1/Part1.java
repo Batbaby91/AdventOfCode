@@ -17,6 +17,7 @@ public class Part1 {
         System.out.println(line);
         boxIDs.add(new BoxID(line));
       }
+      reader.close();
     }
     catch (Exception e) { System.out.println(e.getMessage()); }
 

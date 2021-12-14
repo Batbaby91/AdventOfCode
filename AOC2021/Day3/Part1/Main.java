@@ -20,6 +20,7 @@ public class Main {
         }
         readings.add(intLine);
       }
+      reader.close();
     }
     catch (Exception e) { System.out.println(e.getMessage()); }
 

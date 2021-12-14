@@ -21,6 +21,7 @@ public class Part2 {
         String line = reader.nextLine();
         changes.add(new FrequencyChange(line.charAt(0), Integer.parseInt(line.substring(1))));
       }
+      reader.close();
     }
     catch (Exception e) { System.out.println(e.getMessage()); }
 

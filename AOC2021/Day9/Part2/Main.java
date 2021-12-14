@@ -53,7 +53,6 @@ public class Main {
     String filename = "AOC2021\\Day9\\Part2\\input.txt";
     int noRows = getNoRows(filename);
     points = readData(points, filename, noRows);
-    int total = 0;
     ArrayList<Basin> basins = new ArrayList<Basin>();
 
     for(Point point : points.values()) {

@@ -14,6 +14,7 @@ public class Main {
         String line = reader.nextLine();
         instructions.add(new Instruction(line));
       }
+      reader.close();
     }
     catch (Exception e) { System.out.println(e.getMessage()); }
 

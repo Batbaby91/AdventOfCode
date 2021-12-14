@@ -2,7 +2,6 @@ package AOC2021.Day3.Part2;
 
 import java.io.File;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main {
@@ -21,6 +20,7 @@ public class Main {
         }
         readings.add(intLine);
       }
+      reader.close();
     }
     catch (Exception e) { System.out.println(e.getMessage()); }
 

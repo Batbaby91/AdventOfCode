@@ -3,7 +3,6 @@ package AOC2018.Day3.Part1;
 import java.util.ArrayList;
 
 public class Claim {
-  private int id;
   private int xStart;
   private int yStart;
   private int xLength;
@@ -18,7 +17,6 @@ public class Claim {
   public void processClaim(String data) {
     String[] dataArray = data.split("\\D+");
 
-    id = Integer.parseInt(dataArray[1]);
     xStart = Integer.parseInt(dataArray[2]);
     yStart = Integer.parseInt(dataArray[3]);
     xLength = Integer.parseInt(dataArray[4]);

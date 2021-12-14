@@ -16,6 +16,7 @@ public class Part1 {
         String line = reader.nextLine();
         claims.add(new Claim(line));
       }
+      reader.close();
     }
     catch (Exception e) { System.out.println(e.getMessage()); }
 

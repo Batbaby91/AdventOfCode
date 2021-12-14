@@ -2,10 +2,6 @@ package AOC2021.Day6.Part2;
 
 import java.io.File;
 import java.util.ArrayList;
-import java.util.Collections;
-import java.util.FormatterClosedException;
-import java.util.HashMap;
-import java.util.List;
 import java.util.Scanner;
 
 public class Main {
